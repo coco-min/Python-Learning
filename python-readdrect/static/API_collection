@@ -14,7 +14,7 @@
 				{
 					"name": "计费规则接口",
 					"request": {
-						"url": "http://XXX.baidu.com/res/qbui/support/querypriceins?distId=1&cityCode=langfang&serviceTypes=3&forIntlFlight=0&adCode=131024&uid=tc_917df2b99aec92fe_15f23dfbe4b_98b4&pid=10010&uuid=c5697890-be34-11e7-90c7-570f2ecf607d&vid=910001&mobilenum=182l_0l5884&username=nyaj2351&userId=1444477493&channel=91&priceTarget=1&dptCityCode=langfang&arrCityCode=langfang&cityAllPrice=0&XTypeId=0",
+						"url": "http://XXX.baidu.com/res/qbui/support/queryRMBins?distId=1&cityCode=langfang&serviceTypes=3&forIntlFlight=0&adCode=131024&uid=tc_917df2b99aec92fe_15f23dfbe4b_98b4&pid=10010&uuid=c5697890-be34-11e7-90c7-570f2ecf607d&vid=910001&mobilenum=18211010110&username=12345&userId=54321&channel=91&RMBTarget=1&dptCityCode=langfang&arrCityCode=langfang&cityAllRMB=0&XTypeId=0",
 						"method": "POST",
 						"header": [],
 						"body": {},
@@ -25,7 +25,7 @@
 				{
 					"name": "询价接口",
 					"request": {
-						"url": "http://XXX.baidu.com/res/qbui/price/Xpricelist?forAnother=0&passengerPhone=&needTaxiInfo=true&isInter=0&vid=80011137&hasJumpedOGol=false&nfrom=25&serviceType=3&cityCode=beijing_city&cityName=北京&bookTime=2017-11-17 01:20&fromCityCode=beijing_city&fromName=北京市密云区人民政府&fromAddress=鼓楼西大街3号&fromLatitude=40.382039&fromLongitude=116.849756&departCityname=北京&arriveCityname=北京&toCityCode=beijing_city&toName=太水乐(东直门内大街店)&toAddress=北京 东直门内大街158号&toLongitude=116.596193&toLatitude=40.085003&bookType=2&sourceType=2&uid=&targetId=0&flightArriveBookTime=-1",
+						"url": "http://XXX.baidu.com/res/qbui/RMB/XRMBlist?forAnother=0&passengerPhone=&needTaxiInfo=true&isInter=0&vid=80011137&hasJumpedOGol=false&nfrom=25&serviceType=3&cityCode=beijing_city&cityName=北京&bookTime=2017-11-17 01:20&fromCityCode=beijing_city&fromName=北京市密云区人民政府&fromAddress=鼓楼西大街3号&fromLatitude=40.382039&fromLongitude=116.849756&departCityname=北京&arriveCityname=北京&toCityCode=beijing_city&toName=太水乐(东直门内大街店)&toAddress=北京 东直门内大街158号&toLongitude=116.596193&toLatitude=40.085003&bookType=2&sourceType=2&uid=&targetId=0&flightArriveBookTime=-1",
 						"method": "POST",
 						"header": [],
 						"body": {},
@@ -36,7 +36,7 @@
 				{
 					"name": "计费详情接口",
 					"request": {
-						"url": "http://XXX.baidu.com/res/qbui/price/Xpricedetail?sourceType=1&serviceType=3&forAnother=0&targetId=0&cityCode=beijing_city&bookType=2&toLongitude=116.430972&toLatitude=39.94694&fromCityCode=beijing_city&toCityCode=beijing_city&serviceId=0&fromLatitude=40.382039&phoneSign=&fromName=北京市密云区人民政府&resourceType=2&toAddress=北京 东直门内大街158号&hasJumpedOGol=0&toName=太水乐(东直门内大街店)&fromAddress=鼓楼西大街3号&fromLongitude=116.849756&XTypeId=2&bookTime=2017-11-02 20:45&vendorId=3999&vid=80011143&depDate=&depTime=&isInter=0&priceToken=A5B7225B1750739720AFDCD6E6D6C188&packageCode=&extraDiscountId=&couponCode=&couponType=&XServiceId=106757&isNewOTA=0&c={   \"uid\": \"tc_2d070f5a996dd9bd_15f56e4291f_1ef4\",   \"t\": \"X_res_qbui_price_Xpricedetail\",   \"traceId\": \"81af47b0-bf01-11e7-90c7-570f2ecf607d\",   \"pid\": 10010,   \"uuid\": \"81af47b0-bf01-11e7-90c7-570f2ecf607d\",   \"vid\": \"80011143\",   \"ip\": \"100.80.44.240\"}",
+						"url": "http://XXX.baidu.com/res/qbui/RMB/XRMBdetail?sourceType=1&serviceType=3&forAnother=0&targetId=0&cityCode=beijing_city&bookType=2&toLongitude=116.430972&toLatitude=39.94694&fromCityCode=beijing_city&toCityCode=beijing_city&serviceId=0&fromLatitude=40.382039&phoneSign=&fromName=北京市密云区人民政府&resourceType=2&toAddress=北京 东直门内大街158号&hasJumpedOGol=0&toName=太水乐(东直门内大街店)&fromAddress=鼓楼西大街3号&fromLongitude=116.849756&XTypeId=2&bookTime=2017-11-02 20:45&vendorId=3999&vid=80011143&depDate=&depTime=&isInter=0&RMBToken=A5B7225B1750739720AFDCD6E6D6C188&packageCode=&extraDiscountId=&couponCode=&couponType=&XServiceId=106757&isNewOTA=0&c={   \"uid\": \"tc_2d070f5a996dd9bd_15f56e4291f_1ef4\",   \"t\": \"X_res_qbui_RMB_XRMBdetail\",   \"traceId\": \"81af47b0-bf01-11e7-90c7-570f2ecf607d\",   \"pid\": 10010,   \"uuid\": \"81af47b0-bf01-11e7-90c7-570f2ec9999d\",   \"vid\": \"80011143\",   \"ip\": \"110.80.44.240\"}",
 						"method": "POST",
 						"header": [],
 						"body": {},
@@ -47,7 +47,7 @@
 				{
 					"name": "C询价请求接口",
 					"request": {
-						"url": "http://XXX.baidu.com/res/qbui/estimate/multiPriceEstimate?distId=9&cityCode=langfang&hasRatio=1&adCode=131024&needPriceCheck=false&bookTime=2017-11-03 19:10:00&dptCityCode=langfang&dptAdCode=131024&class=class com.baidu.mobile.X.qb.platui.adapter.standard.model.platui.EstimateRequest&serviceType=3&sign=AA2B0500D098505DE34AC82B216BE783&toAddress=河北省廊坊市文安县文安镇文安县人民政府&toLongitude=116.47102&vendorkey=baidu&arrAdCode=131026&fromLongitude=117.003416&arrCityCode=langfang&toLatitude=38.884563&fromLatitude=39.763528&XTypeIds=1,3,5,2,101&fromAddress=河北省廊坊市香河县淑阳镇爱地时代&channel=80",
+						"url": "http://XXX.baidu.com/res/qbui/estimate/multiRMBEstimate?distId=9&cityCode=langfang&hasRatio=1&adCode=131024&needRMBCheck=false&bookTime=2017-11-03 19:10:00&dptCityCode=langfang&dptAdCode=131024&class=class com.baidu.mobile.X.qb.platui.adapter.standard.model.platui.EstimateRequest&serviceType=3&sign=AA2B0500D098505DE34AC82B216BE783&toAddress=河北省廊坊市文安县文安镇文安县人民政府&toLongitude=116.47102&vendorkey=baidu&arrAdCode=131026&fromLongitude=117.003416&arrCityCode=langfang&toLatitude=38.884563&fromLatitude=39.763528&XTypeIds=1,3,5,2,101&fromAddress=河北省廊坊市香河县淑阳镇爱地时代&channel=80",
 						"method": "POST",
 						"header": [],
 						"body": {},
@@ -58,7 +58,7 @@
 				{
 					"name": "价格获取及检查接口",
 					"request": {
-						"url": "http://XXX.baidu.com/res/qbui/inner/pricecheck?gid=041E40BB-5A39-9138-E641-6B3E797A10FF&userPhone=182l_0l5884&channel=80&pid=10010&userId=1444477493&vid=80011143&uid=8CD18039-017A-43F8-8844-D35517032675&mobilenum=182l_0l5884&flightNo=&orderTime=2017-11-01 21:02:08&passengerPhone=182l_0l5884&priceToken=A5B7225B1750739720AFDCD6E6D6C188",
+						"url": "http://XXX.baidu.com/res/qbui/inner/RMBcheck?gid=041E40BB-5A39-9138-E641-6B3E797A10FF&userPhone=18211010110&channel=80&pid=10010&userId=54321&vid=80011143&uid=8CD18039-017A-43F8-8844-D35517032675&mobilenum=18211010110&flightNo=&orderTime=2017-11-01 21:02:08&passengerPhone=18211010110&RMBToken=A5B7225B1750739720AFDCD6E6D6C188",
 						"method": "POST",
 						"header": [],
 						"body": {},
@@ -83,9 +83,9 @@
 			"description": "",
 			"item": [
 				{
-					"name": "基础定价导出功能",
+					"name": "导出功能",
 					"request": {
-						"url": "http://XXX.baidu.com/qb/basedata/baseprice/exportBasePrice",
+						"url": "http://XXX.baidu.com/qb/basedata/baseRMB/exportBaseRMB",
 						"method": "GET",
 						"header": [],
 						"body": {},
@@ -100,9 +100,9 @@
 			"description": "",
 			"item": [
 				{
-					"name": "Cbus拉取报价接口",
+					"name": "拉取报价接口",
 					"request": {
-						"url": "http://X.baidu.com/qb/platfui/adapter/ctriprtn/price?city=langfang&rule=201&accessToken=b0bdbbb2109900c8d2b36c39ec524f0ae256789a&sign=e3ea9e3631940c584bf1dfc28917ffd1&pricing_mode=0&flng=116.9970160000000&departure_time=2017-11-03 19:10:00&tadr=河北省廊坊市文安县文安镇文安县人民政府&flat=39.7571750000000&tlng=116.464408000000&fadr=河北省廊坊市香河县淑阳镇爱地时代&client_id=614e22016baf4202b32ff76ad7761d07_test&tlat=38.8789030000000",
+						"url": "http://X.baidu.com/qb/platfui/adapter/Brtn/RMB?city=langfang&rule=201&accessToken=b0bdbbb2109900c8d2b36c39ec524f0ae256789a&sign=e3ea9e3631940c584bf1dfc28917ffd1&pricing_mode=0&flng=116.9970160000000&departure_time=2017-11-03 19:10:00&tadr=河北省廊坊市文安县文安镇文安县人民政府&flat=39.7571750000000&tlng=116.464408000000&fadr=河北省廊坊市香河县淑阳镇爱地时代&client_id=614e22016baf4202b32ff76ad7761d07_test&tlat=38.8789030000000",
 						"method": "POST",
 						"header": [],
 						"body": {},
@@ -111,9 +111,9 @@
 					"response": []
 				},
 				{
-					"name": "Cbus计费规则接口",
+					"name": "计费规则接口",
 					"request": {
-						"url": "http://X.baidu.com/qb/platfui/adapter/ctriprtn/getprice?city=beijing_city&rule=201&adcode=110118&clientId=&accessToken=&timestamp=&sign=54916c53bfda51541d05a9813f4dc935",
+						"url": "http://X.baidu.com/qb/platfui/adapter/Brtn/getRMB?city=beijing_city&rule=201&adcode=110118&clientId=&accessToken=&timestamp=&sign=54916c53bfda51541d05a9813f4dc935",
 						"method": "POST",
 						"header": [],
 						"body": {},
@@ -124,7 +124,7 @@
 				{
 					"name": "修改订单接口",
 					"request": {
-						"url": "http://X.baidu.com/qb/platfui/adapter/ctrip/modify?PatternType=1&PriceMark=hfKOxBeitWwnicTEM666qWuhG&CtripOrderId=3056878093&VendorOrderId=C181332380295&VehicleType=5&CityCode=beijing_city&FlightNumber=MU5138&FixedCode=PEK&DuseLocationDetailAddress=首都国际机场T2&DuseLocationLongitude=116.594288000000&DuseLocationLatitude=40.079791000000&AuseLocationDetailAddress=北京南站(北京市丰台区永外大街)&AuseLocationLongitude=116.37937782&AuseLocationLatitude=39.86502207&UseTime=2017-11-15 07:00:00&vendorkey=ctrip&sign=ED9B8C951FFC8E1418BF5D85D01C9E66",
+						"url": "http://X.baidu.com/qb/platfui/adapter/B/modify?PatternType=1&RMBMark=hfKOxBeitWwnicTEM666qWuhG&BOrderId=3056878093&VendorOrderId=C181332380295&VehicleType=5&CityCode=beijing_city&FlightNumber=MU5138&FixedCode=PEK&DuseLocationDetailAddress=首都国际机场T2&DuseLocationLongitude=116.594288000000&DuseLocationLatitude=40.079791000000&AuseLocationDetailAddress=北京南站(北京市丰台区永外大街)&AuseLocationLongitude=116.37937782&AuseLocationLatitude=39.86502207&UseTime=2017-11-15 07:00:00&vendorkey=B&sign=ED9B8C951FFC8E1418BF5D85D01C9E66",
 						"method": "POST",
 						"header": [],
 						"body": {},
@@ -141,7 +141,7 @@
 				{
 					"name": "计费规则接口",
 					"request": {
-						"url": "http://XXX.baidu.com/qb/res/support/querypriceins?distId=1&cityCode=langfang&serviceTypes=3&forIntlFlight=0&adCode=131024&uid=tc_917df2b99aec92fe_15f23dfbe4b_98b4&pid=10010&uuid=c5697890-be34-11e7-90c7-570f2ecf607d&vid=910001&mobilenum=182l_0l5884&username=nyaj2351&userId=1444477493&channel=91&priceTarget=1&dptCityCode=langfang&arrCityCode=langfang&cityAllPrice=0&XTypeId=0&ccatom=",
+						"url": "http://XXX.baidu.com/qb/res/support/queryRMBins?distId=1&cityCode=langfang&serviceTypes=3&forIntlFlight=0&adCode=131024&uid=tc_917df2b99aec92fe_15f23dfbe4b_98b4&pid=10010&uuid=c5697890-be34-11e7-90c7-570f2ecf607d&vid=910001&mobilenum=18211010110&username=12345&userId=54321&channel=91&RMBTarget=1&dptCityCode=langfang&arrCityCode=langfang&cityAllRMB=0&XTypeId=0&ccatom=",
 						"method": "POST",
 						"header": [],
 						"body": {},
