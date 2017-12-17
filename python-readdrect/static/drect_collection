@@ -1,0 +1,45 @@
+{
+	"variables": "目录",
+	"info": {
+		"name": "目录结构",
+		"_postman_id": "96ffb367-3c48-ddde-fb85-12b80c5c366b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TTS侧",
+			"description": "",
+			"item": [
+				{
+					"name": "某某项目一期",
+					"request": {
+						"url": "?X-resrouceui=/res/qbui/support/querypriceins&X-resrouceui=/res/qbui/price/Xpricedetail&X-resrouceui=/res/qbui/estimate/multiPriceEstimate&X-resrouceui=/res/qbui/inner/pricecheck&qb_resource=/qb/res/support/querypriceins&qb_platfui_adapter=/qb/platfui/adapter/ctriprtn/price&qb_platfui_adapter=/qb/platfui/adapter/ctriprtn/getprice&DB-X_qbest.order_extend_info=order_extend_info&DB-mobile_X.chauf_order=chauf_order&QCONF-X_resourceui-common_trade_mode.properties=properties&QMQ-orderui-X.qb.flight.time.exchange=exchange",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "C侧修改订单",
+					"request": {
+						"url": "?qb_platui_adapter=/qb/platfui/adapter/ctrip/modify",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
